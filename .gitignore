@@ -1,0 +1,36 @@
+# ── Data files (too large for GitHub) ──────────────────────────
+*.csv
+*.npz
+!sample_submission.csv
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── CatBoost training artifacts ──────────────────────────────
+catboost_info/
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+train_log.txt
+
+# ── IDE / OS ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Virtual environments ─────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Deprecated code ──────────────────────────────────────────
+solution/
