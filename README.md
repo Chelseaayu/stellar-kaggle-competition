@@ -25,14 +25,6 @@ This repository contains my solution for the [Kaggle Playground Series S6E6](htt
 
 **Competition metric**: Balanced Accuracy (mean per-class recall)
 
-## 🏆 Results
-
-| Metric | Score |
-|--------|-------|
-| **Public Leaderboard** | **0.96681** |
-| **Rank** | **#293** |
-| **Submissions** | 2 |
-
 ### Individual Model Performance (OOF)
 
 | Model | Raw Balanced Acc | Weighted Balanced Acc | Blend Weight |
