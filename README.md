@@ -147,6 +147,17 @@ cd stellar-kaggle-competition
 pip install -r requirements.txt
 ```
 
+**Dependencies** (`requirements.txt`):
+ 
+```
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+lightgbm>=4.0
+xgboost>=2.0
+catboost>=1.2
+```
+
 ### 2. Download Data
 
 Download the competition data from [Kaggle](https://www.kaggle.com/competitions/playground-series-s6e6/data) and place the CSV files in the `data/` directory (or the project root).
